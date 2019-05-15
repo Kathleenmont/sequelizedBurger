@@ -8,7 +8,8 @@ $(document).ready(function () {
     var id = $(this).data("id");
     // changing devoured to be true
     var newDevouredState = {
-      devoured: 1
+      // burger_name: this.data("burger_name"),
+      devoured: true
     };
 
     // put ajax call to update devoured and reload
@@ -41,7 +42,7 @@ $(document).ready(function () {
     // grabs new burger name and sets devoured to false
     var newBurger = {
       burger_name: $("#newBurger").val().trim(),
-      devoured: 0
+      devoured: false
     };
 
     // to prevent empty inputs from creating blank burgers
