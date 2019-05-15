@@ -1,0 +1,106 @@
+body {
+    background-color: #64C9AE;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+button {
+    font-family: 'PT Sans', sans-serif;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #AA1175;
+    color: whitesmoke;
+    font-size: 16px;
+    margin: 10px;
+}
+button:hover {
+    background-color: #0F8C8A;
+
+}
+#add-burger {
+         background-color: #64C9AE;
+         color: black;
+}
+#add-burger:hover {
+    background-color: #0F8C8A;
+    color: whitesmoke;
+}
+
+#clear {
+    background-color: #AA1175;
+    color: whitesmoke;
+}
+#clear:hover {
+    background-color: #0F8C8A;
+}
+input {
+    height: 25px;
+    border-radius: 5px;
+}
+
+h1 {
+    /* font-family: 'Gugi', cursive; */
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 58px;
+}
+
+h2 {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33.33%, 33.33%, 33.33%;
+    grid-template-rows: 20%, 50%, 20%, 10%;
+    grid-column-gap: 10px;
+  
+  
+}
+
+#title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    
+    background-color: #0F8C8A;
+    width: 100%;
+    padding: 20px;
+    margin: -10px 15px 15px 15px;
+    justify-self: center;
+    text-align: center;
+    
+}
+
+#toEat {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+#img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#eaten {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.add {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self: center;
+    background-color: #AA1175;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5%;
+    color: whitesmoke;
+}
+
+.clear-all {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: end;
+    margin-right: 20px;
+    align-self: flex-end;
+}

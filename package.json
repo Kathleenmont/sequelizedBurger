@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Make a list of burgers, and eat them one by one.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathleenmont/Burger.git"
+  },
+  "author": "Kathleen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathleenmont/Burger/issues"
+  },
+  "homepage": "https://github.com/Kathleenmont/Burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.17.1"
+  }
+}
