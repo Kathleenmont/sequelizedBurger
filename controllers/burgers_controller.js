@@ -13,6 +13,8 @@ router.get("/", function (req, res) {
         var hbsObject = {
             burgers: dbburger
         };
+        
+        
         res.render("index", hbsObject);
         // res.sendFile(path.join(__dirname, "../views/index"));
         // res.render("index", dbburger)
@@ -97,8 +99,10 @@ router.delete("/api/burgers", function (req, res) {
     db.burger.destroy({
         where: {},
         truncate: true
+    }).then( function (dbburger) {
+        res.json(dbburger)
     });
-    res.json(dbburger)
+   
 });
 // router.delete("/api/burgers", function (req, res) 
 // {

@@ -5,11 +5,23 @@
     <h2>Burgers to Eat!</h2>
 
     <ul>
+
       {{#each burgers}}
+
       {{#unless devoured}}
-      {{> burgers/burger-button devoured=false}}
+      <li>
+        
+        {{burger_name}}
+
+        <button class="change-eaten" data-id="{{id}}" data-neweat="{{devoured}}">
+          Devour it!
+        </button>
+
+      </li>
       {{/unless}}
+
       {{/each}}
+
     </ul>
   </div>
 
@@ -19,11 +31,17 @@
   <div id="eaten">
     <h2>Already Ate!</h2>
     <ul>
+
       {{#each burgers}}
+
       {{#if devoured}}
-      {{> burgers/burger-button devoured=true}}
+      <li>
+        {{burger_name}}
+      </li>
       {{/if}}
+
       {{/each}}
+
     </ul>
   </div>
 
@@ -36,9 +54,9 @@
       </div>
       <button type="submit" id="add-burger">Add Burger</button>
     </form>
-</div>
-
- <div class="clear-all">
-      <button id="clear">Clear all Burgers</button>
-    </div>
   </div>
+
+  <div class="clear-all">
+    <button id="clear">Clear all Burgers</button>
+  </div>
+</div>
