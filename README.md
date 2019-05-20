@@ -4,7 +4,7 @@ This Project is a full-stack web application where the user can create a list of
 
 #### DEPENDENCIES
 
-mysql, express, and express-handlebars npm packages are required for this app.
+mysql2, express, express-handlebars, and sequelize npm packages are required for this app.
 
 #### GETTING STARTED
 
@@ -12,7 +12,7 @@ To get started enter a burger you would like to eat into the input field. Click 
 
 #### BUIT WITH
 
-Node.js, Express.js, Handlebars.js, MySQL, JavaScript, and jQuery.
+Node.js, Express.js, Handlebars.js, MySQL, JavaScript, sequelize, and jQuery.
 
 #### AUTHOR 
 

@@ -1,14 +1,16 @@
 <div class="container">
   <h1 id="title">Eat Dat Burger</h1>
-
+  
+{{!-- print the uneaten list --}}
   <div id="toEat">
     <h2>Burgers to Eat!</h2>
-
+  
     <ul>
 
       {{#each burgers}}
 
       {{#unless devoured}}
+
       <li>
         
         {{burger_name}}
@@ -18,6 +20,7 @@
         </button>
 
       </li>
+
       {{/unless}}
 
       {{/each}}
@@ -25,9 +28,10 @@
     </ul>
   </div>
 
-
+{{!-- burger img --}}
   <img id="img" src="http://localhost:8080/static/assets/img/burger.png" alt="burger" width="250px">
 
+{{!-- print the already eaten list --}}
   <div id="eaten">
     <h2>Already Ate!</h2>
     <ul>

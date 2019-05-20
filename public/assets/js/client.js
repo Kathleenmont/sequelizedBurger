@@ -8,7 +8,6 @@ $(document).ready(function () {
     var id = $(this).data("id");
     // changing devoured to be true
     var newDevouredState = {
-      // burger_name: this.data("burger_name"),
       devoured: true
     };
 
