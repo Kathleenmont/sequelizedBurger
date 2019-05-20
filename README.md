@@ -1,4 +1,4 @@
-# Eat Dat Burger
+# Eat Dat Burger 
 
 This Project is a full-stack web application where the user can create a list of burgers they would like to eat then click 'Devour It!' to put the selected burger onto their Already Eaten List. The data is stored in a MySQL database. 
 
@@ -19,7 +19,7 @@ Node.js, Express.js, Handlebars.js, MySQL, JavaScript, sequelize, and jQuery.
 Kathleen Montesano
 
 #### DEPLOYED
-Deployed Project [HERE](https://thawing-dusk-85754.herokuapp.com)
+Deployed Project [HERE](https://enigmatic-falls-51366.herokuapp.com)
 
 
 
